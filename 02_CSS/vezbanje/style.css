@@ -1,0 +1,56 @@
+body {
+  font-family: Arial;
+  background-color: orangered;
+}
+h1 {
+  color: white;
+}
+
+h4 {
+  color: orange;
+}
+
+p {
+  color: blueviolet;
+  font-size: 20px;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+}
+
+a {
+  color: purple;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+}
+
+.centralno_poravnanje {
+  text-align: center;
+}
+
+.desno_velicina {
+  text-align: right;
+  font-size: 24px;
+}
+
+.dotted {
+  border: dashed 2px lime;
+}
+
+h1:last-of-type {
+  text-align: center;
+  color: green;
+  font-family: "Times New Roman", Times, serif;
+}
+
+li:nth-child(odd) {
+  color: green;
+}
