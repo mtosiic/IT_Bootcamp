@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forme</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Osnovne informacije</legend>
+
+        <p>
+          <label for="ime">Ime: </label>
+          <input type="text" id="ime" />
+        </p>
+
+        <p>
+          <input type="text" placeholder="Prezime" />
+        </p>
+
+        <p>
+          <input type="text" value="Kurs" />
+        </p>
+
+        <p>
+          <label for="godine">Godine:</label>
+          <input type="number" id="godine" min="0" />
+        </p>
+
+        <p>
+          <label for="datum">Datum rodjenja:</label>
+          <input type="date" for="datum" />
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Dodatne informacije</legend>
+
+        <p>
+          <label>Odaberite kurs:</label>
+          <input type="radio" name="kurs" value="js" />JS
+          <input type="radio" name="kurs" value="php" />PHP
+          <input type="radio" name="kurs" value="qa" />QA
+        </p>
+
+        <p>
+          <label>Znanje:</label>
+          <input type="checkbox" id="html" name="znanje" value="html" />
+          <label for="html">HTML</label>
+          <input type="checkbox" id="css" name="znanje" value="css" />
+          <label for="css">CSS</label>
+          <input type="checkbox" id="js" name="znanje" value="js" />
+          <label for="js">JS</label>
+        </p>
+
+        <p>
+          <select>
+            <optgroup label="Nis">
+              <option value="js">JavaScript</option>
+              <option value="qa-ni">QA</option>
+            </optgroup>
+            <optgroup label="Beograd">
+              <option value="py">Python</option>
+              <option value="php">PHP</option>
+              <option value="qa-bg">QA</option>
+            </optgroup>
+          </select>
+        </p>
+      </fieldset>
+
+      <input type="button" value="Button" />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
