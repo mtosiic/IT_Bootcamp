@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.topbar ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+.topbar ul li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  border: 1px solid white;
+  background: black;
+}
+
+.topbar ul li a {
+  display: block;
+  padding: 10px 0;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.topbar ul li a:hover {
+  background: red;
+}
+
+.showcase {
+  position: relative;
+  top: 45px;
+  overflow: hidden;
+}
+
+.showcase aside {
+  float: left;
+  width: 30%;
+}
+
+.showcase section {
+  float: left;
+  width: 70%;
+}
+
+.showcase aside ul {
+  list-style: none;
+}
+
+.showcase aside ul li {
+  border: 1px solid green;
+  text-align: center;
+  background: darkgreen;
+}
+
+.showcase aside ul li a {
+  display: block;
+  padding: 10px 0;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.showcase aside ul li a:hover {
+  background: greenyellow;
+}
